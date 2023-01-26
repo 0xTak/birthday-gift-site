@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'Bloody Road'; /* the name of the font */
+  src: url('Bloody-Road-DEMO.ttf') /* the location of the font file */
+  format('truetype'); /* the format of the font file */
+}
+
+
+body {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    background: linear-gradient(#87CEFA, #FF6961);
+    color: #ffffff;
+    margin: 0;
+}
+
+#trace-font {
+    font-family: 'Bloody Road', 'Happy Monkey', cursive, sans-serif;
+    font-size: 50px;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 5px black;
+}
+
+#bff-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #FF6961;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #FF6961;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #FF6961;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-image: url("images/bdaybackground.jpg");
+    background-size: cover;
+}
+
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 480px;
+    height: 270px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/teleport.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/uBRwFMpdukW1hf8yqS/giphy.gif");
+    width: 480px;
+    height: 270px;
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+}
+
+#gift-img-ramen:hover {
+    background-image: url("https://media.giphy.com/media/PmeBZT0TVC1cOFoR6K/giphy.gif");
+    width: 480px;
+    height: 270px;
+    background-size: cover;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center; 
+    background-position: center; 
+    transition: background-image 0.5s ease-in-out;
+}
+
+
+#gift-img-igotthis:hover {
+    background-image: url("https://media.giphy.com/media/qZObZvkwzThwKP9v2i/giphy.gif");
+    transition: background-image 0.5s ease-in-out;
+}
+
+#gift-img-roadtrip:hover {
+    background-image: url("https://media.giphy.com/media/fAEdPNa0lArE797HV9/giphy.gif");
+    transition: background-image 0.5s ease-in-out;
+}
+
+#gift-img-newyork:hover {
+    background-image: url("https://media.giphy.com/media/fMYhlRdVtRnsk/giphy.gif");
+    transition: background-image 0.5s ease-in-out;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+
+#jett {
+    position: fixed; /* positions the element in relation to the viewport */
+    left: 0; /* aligns the left edge of the element with the left edge of the viewport */
+    bottom: 0; /* aligns the bottom edge of the element with the bottom edge of the viewport */
+    z-index: -1; /* Place it behind the other elements */
+    max-height: 350px;
+    box-shadow: 0px -5px 10px 10px rgba(0, 0, 0, 0.5), 5px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
